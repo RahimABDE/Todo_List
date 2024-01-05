@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background: url("https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#container {
+  width: 27%;
+  height: 70vh;
+  border: 2px solid;
+  border-radius: 15px;
+  position: relative;
+  top: 120px;
+  left: 35%;
+}
+#container h1 {
+  color: rgba(111, 30, 30, 0.86);
+  font-weight: 700;
+  font-size: 30px;
+  position: absolute;
+  display: flex;
+  top: 6%;
+  left: 7%;
+}
+
+#container .fields {
+  position: absolute;
+  display: flex;
+  top: 22%;
+  left: 7%;
+}
+#container .fields .inputField > input {
+  padding: 8px 16px;
+  border-radius: 10px;
+}
+#container .fields .plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  margin-left: 10px;
+  background-color: rgba(111, 30, 30, 0.86);
+  color: #fff;
+  width: 40px;
+  cursor: pointer;
+}
+
+#container > #subText {
+  position: absolute;
+  top: 34%;
+  left: 8%;
+  color: rgb(109, 56, 8);
+  font-size: 11px;
+  font-weight: 600;
+}
+
+#container > #values {
+  position: absolute;
+  margin-top: 50%;
+  width: 100%;
+}
+#container > #values #valueContainer {
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+  display: flex;
+  justify-content: space-around;
+}/*# sourceMappingURL=style.css.map */
